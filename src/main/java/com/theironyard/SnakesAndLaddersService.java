@@ -118,10 +118,8 @@ public class SnakesAndLaddersService {
     // winner condition
     public boolean winner(Player player1, Player player2){
         if (player1.getPosition() == 100){
-            System.out.println(player1.getId() + " WON!");
             return true;
         } else if (player2.getPosition() == 100){
-            System.out.println(player2.getId() + " WON!");
             return true;
         } return false;
     }
